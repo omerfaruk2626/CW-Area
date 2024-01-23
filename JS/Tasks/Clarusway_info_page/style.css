@@ -1,0 +1,116 @@
+@import 'https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap';
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #f1f1f1 */
+    background-image: url(Binary\ Code\ Background.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(77, 77, 114, 0.774);
+    z-index: 2;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+
+header {
+    margin: 35px 15px 0px 15px;
+}
+
+header img {
+    width: 600px;
+}
+
+.path {
+    /* border: 3px solid white; */
+    display: flex;
+    padding: 10px;
+    width: 75rem;
+    height: 12rem;
+    margin: 15px;
+    background-color: rgba(107, 216, 149, 0.614);
+    border-radius: 35px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 14px 14px rgba(40, 9, 98, 0.693);
+}
+
+img {
+    width: 215px;
+    padding-right: 5px;
+    float: left;
+    border-radius: 15%;
+}
+
+h1 {
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 60px;
+    margin: 30px;
+    text-align: center;
+}
+
+h2 {
+    color: darkblue;
+    font-family: 'Lemon', serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    text-indent: 23px;
+    color: rgb(15, 19, 68);
+    font-size: 19px;
+}
+
+a {
+    color: rgb(73, 255, 32);
+    background-color: rgba(47, 21, 220, 0.662);
+    text-decoration: none;
+    justify-items: right;
+    padding: 1px;
+    font-family: 'Lemon', serif;
+    border-radius: 15px;
+    font-size: 13px;
+    margin: auto;
+}
+
+main {
+    background-color: rgba(22, 64, 70, 0.549);
+    border-radius: 35px;
+}
+
+
+.kolon a {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    margin: auto;
+
+}
+
+a:hover{
+    background-color: bisque;
+    color: black;
+    border-inline-style: ;
+    /* border-radius: 15px; */
+    /* font-size: 25px; */
+    /* margin: 1px 1px 124px 1px; */
+}
