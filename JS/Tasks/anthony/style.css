@@ -1,105 +1,210 @@
-@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Rubik+Scribble&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Rampart+One&display=swap');
+
 font-family: 'Rampart One', sans-serif;
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(11, 42, 48);
+    background-color: rgb(80, 113, 120);
+    position: relative;
 }
 
 .head {
     width: 100%;
-    border: 3px solid black;
     text-align: center;
-    font-family: 'Rubik Scribble', system-ui;
+    font-family: 'bungee shade', system-ui;
     font-size: 30px;
     color: white;
-    /* display: flex */
     margin: 1px auto;
-    /* justify-content: center; */
-    /* align-items: center; */
     height: 100px;
     padding-bottom: 2%;
-    /* text-shadow: -11px 11px 1px rgb(207, 101, 101); */
+    
 }
 
 .button {
-    width: 100%; /* Örnek: Butonun genişliğini yarıya indirme */
-    border: 3px solid black;
+    width: 25%;
     text-align: center;
     font-family: lemon;
-    display: inline-block;
-    font-size: 8px; /* Örnek: Font boyutunu küçültme */
-    position: relative;
+    font-size: 8px;
+    position: sticky;
+    top: 0;
     margin: auto;
-    height: 25px; /* Örnek: Butonun yüksekliğini azaltma */
-    color: white;
-
+    height: 25px;
+    color: rgb(189, 161, 161);
+    background-color: rgb(140, 104, 58);
+    border: 0.1px solid rgba(255, 255, 255, 0.34);
+    padding: 10px 25px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* border-color: rgb(140, 104, 58); */
+    background: linear-gradient(to top, rgb(140, 104, 58), rgb(80, 113, 120));
+    border: none;
 
 }
 
 .button a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     border-radius: 12px;
-    border: 2px solid rgba(0, 0, 0, 0.34);
     padding: 10px 25px; 
-    background-color: lemonchiffon;
-    font-size: 13px;
+    font-size: 17px;
     height: 25px;
     margin: 0px 5px;
     width: 150px;
-    border: 1px solid rgba(255, 0, 0, 0.708);
 }
 
 .button a:hover {
-    color: rgb(255, 0, 0);
-    background-color: rgba(0, 0, 0, 0.708);
-    border: 1px solid rgba(255, 0, 0, 0.708);
+    color: rgb(187, 176, 176);
+    background-color: rgba(87, 74, 80, 0.59);
 }
 
 .content {
     width: 100%;
-    height: 630px;
-    border: 3px solid black;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: lemon;
-    font-size: 20px;
     color: white;
-    /* margin: 1px auto; */
-    /* margin: 20%; */
 }
 .content h2{
     font-size: 45px;
     font-family: rampart one;
-    /* padding: 150px; */
-    /* margin: 100px; */
+    margin: 100px;
     margin-bottom: 250px;
-    border: 3px solid red;
     color: rgb(225, 202, 143);
 }
 .projects {
     width: 100%;
-    /* height: 500px; */
-    border: 3px solid rgb(0, 255, 119);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    
-    
-   
+
 }
 .projects p{
     border-bottom: 2px solid white;
     color: white;
     font-size: 34px;
 }
+.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.photos img{
+    width: 300px;
+    height: 300px;
+    margin: 6px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    background-color: bisque;
+
+}
+.photos img:hover{
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(68, 79, 96);
+    cursor: pointer;
+
+}
+.before-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 420px;
+    font-size: 36px;
+}
+
+.before-footer a{
+    margin-left: 45px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.linkler{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.linkler a{
+    margin-left: 45px;
+    text-decoration: none;
+    color: beige;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.linkler a:hover{
+    color: rgb(255, 0, 0);
+}
+.linkler i{
+    margin-right: 5px;
+}
+
+.footer{
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid rgb(255, 255, 255); */
+    height: 40px;
+}
+.Form{
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: center;
+    height: 300px;
+    /* border: 3px solid rgb(85, 11, 11); */
+}
+
+.Form input{
+    margin: 5px;
+    width: 750px;
+    height: 40px;
+    border-radius: 8px;
+}
+::placeholder {
+    text-align: center;
+    display: flex;
+    vertical-align: top;
+  
+ }
+ .submit{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(140, 104, 58);
+    border: none;
+    transition: 1.6s;
+ }
+
+ .submit:hover{
+    background-color: rgb(140, 104, 58);
+    cursor: pointer;
+    transition: 1.7s;
+    color: red;
+    -ms-transform: scale(4);
+    -webkit-transform: scale(3);
+     transform: scale(1.05); 
+ }
