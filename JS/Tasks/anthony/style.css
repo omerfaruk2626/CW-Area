@@ -182,13 +182,15 @@ body {
     width: 60%;
     height: 40px;
     border-radius: 8px;
+    position: relative;
 }
 ::placeholder {
-    text-align: center;
     display: flex;
-    vertical-align: top;
-  
+    text-align: center;
+    flex-direction: column;
+    align-self: flex-start;
  }
+
  .submit{
     font-size: 25px;
     font-weight: bolder;
