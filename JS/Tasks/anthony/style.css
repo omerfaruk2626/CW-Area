@@ -97,15 +97,12 @@ body {
     font-size: 34px;
 }
 .photos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     width: 100%;
 }
 .photos img{
-    width: 300px;
-    height: 300px;
+    width: 10%;
+    height: 8%;
     margin: 6px;
     background-size: cover;
     background-position: center;
@@ -182,7 +179,7 @@ body {
 
 .Form input{
     margin: 5px;
-    width: 750px;
+    width: 60%;
     height: 40px;
     border-radius: 8px;
 }
