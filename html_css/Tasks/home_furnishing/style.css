@@ -16,10 +16,13 @@ body {
     background-repeat: no-repeat;
     background-color: #efefef;
 }
+.container{
+    border-radius: 35%;
+}
 
 div.container {
     width: 80%;
-    background-color: #eeecec;
+    background-color: #fca95c;
     margin: 50px auto;
     font-family: "Judson", serif;
     border-radius: 1.5rem;
@@ -30,7 +33,7 @@ div.container {
     background-color: antiquewhite;
     display: block;
     justify-content: center;
-
+    border-radius: 20px 20px 0px 0px;
 }
 
 .up-row {
@@ -41,6 +44,12 @@ div.container {
     flex-wrap: wrap;
     margin-left: 3rem;
     border-bottom: 2px solid #d9d9d9;
+    
+}
+
+.logo img{
+    /* border: 5px solid black; */
+    height: 35px;
 }
 
 .up-row-in1 {
@@ -49,7 +58,16 @@ div.container {
     flex-wrap: wrap;
     gap: 1.5rem;
 }
-
+.up-row-in1 select{
+    height: 35px;
+}
+.logo img{
+    width: 50px;
+    height: auto;
+}
+.find input{
+    height: 35px;
+}
 .down-row {
     display: flex;
     align-items: flex-end;
@@ -89,7 +107,7 @@ div.container {
 header {
     /* margin-top: 20px; */
     /* height: 350px; */
-    padding: 2rem 5rem;
+    padding: 2rem 2rem;
     background-image: url("./images/stock.jpg");
     display: flex;
     justify-content: space-around;
@@ -98,16 +116,15 @@ header {
     gap: 1rem;
 
 }
-
-header img:hover {
-    background-image: url(./images/a2.png);
-    background-size: cover;
-    /* position: relative; */
+.icons img {
+    width: 40px;
+    height: auto;
 }
+
 
 .lobi1 {
     background-color: #d5dee5;
-    width: 800px;
+    width: 700px;
     height: 300px;
     display: flex;
     align-items: center;
@@ -123,22 +140,56 @@ header img:hover {
     font-weight: 400;
 }
 
+.lobi1:hover {
+    background-image: url(./images/aef.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+    text-shadow: none;
+}
+
+.lobi1 img {
+    margin-top: 65px;
+}
+
+
+
 .lobi2 {
-    width: 400px;
+    width: 380px;
     height: 300px;
     background-color: orange;
     background-size: cover;
     background-position: center;
-    margin-left: 3rem;
+    margin-left: 2rem;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
     color: white;
+}
+
+.lobi2-text {
+    /* padding: 20px; */
+    font-style: italic;
+    letter-spacing: 0.3px;
+    font-size: 0.9rem;
+    font-weight: 400;
+
 }
 
 .lobi2 img {
     width: 100%;
     height: 300px;
     border-radius: 5px;
+}
+
+.lobi2-img:hover {
+    background-image: url(./images/a3.jpg);
+    background-size: cover;
+    font-display: none;
+}
+
+.lobi2:hover {
+    color: transparent;
+    text-shadow: none;
 }
 
 .lobi2 p {
@@ -150,56 +201,67 @@ header img:hover {
     line-height: 1.3;
     font-style: italic;
 }
-.options1 {
-    background-color: #69635a;
-  }
-.options1,
-.options2 {
-    padding: 1rem;
-  }
 
-  
-  .options1-text,
-  .options1-text {
-    margin-bottom: 2rem;
+div.options1 {
+    background-color: #69635af4;
+    margin: 0px;
+}
+
+
+.options1-text,
+.options2-text {
+    margin-bottom: 3rem;
+    margin-left: 3rem;
     font-size: 1.5rem;
     font-weight: 400;
-  }
-  .options1-chooses,
-  .options2-chooses {
+}
+
+.options1-chooses,
+.options2-chooses {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    
-  }
-  .ch1 {
+
+}
+
+.ch1 {
     width: 350px;
     height: 350px;
     margin: 3rem;
     padding: 1rem 2px 1rem 1rem;
     border-radius: 10px;
-    background-color: rgba(238, 236, 236,);
+    background-color: rgba(238, 236, 236, );
     box-shadow: 2px 2px 90px #eeecec;
-  }
-  .ch1 img {
+    -webkit-transition: all 1s ease;
+    transition:  all 1.5s ease;
+}
+
+.ch1 img {
     width: 100%;
     height: 100%;
-    padding: 0.8rem ;
+    padding: 0.8rem;
     border: 10px;
     border-radius: 2rem;
+    filter: brightness(40%);
     /* position: relative; */
-  }
-  .ch1 p {
+}
+
+.ch1 p {
     font-family: "Josefin Slab", serif;
     font-weight: 800;
     color: white;
-  }
-  
-  .options2 {
+}
+
+.ch1 img:hover {
+    filter: brightness(100%);
+    transition: 5,5s;
+}
+.options2 {
     background-color: #d5dee5;
-  }
-  .ch2 {
+}
+
+.ch2 {
     width: 350px;
     height: 300px;
     margin: 1.5rem;
@@ -207,12 +269,117 @@ header img:hover {
     text-align: center;
     box-shadow: 2px 4px 50px rgb(88, 67, 21);
     border-radius: 10px;
-  }
-  .ch2 img {
+}
+
+.ch2 img {
     width: 100%;
     height: 90%;
     border-radius: 10px;
     border: 10px;
     object-fit: cover;
     position: relative;
-  }
+    -webkit-transition: all 1s ease;
+    transition:  all 1.5s ease;
+}
+
+.ch2 img:hover {
+    filter: brightness(40%);
+    transition: 5,5s;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #69635af4;;
+    padding: 2rem;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.explain {
+    width: 50%;
+    padding: 2rem;
+    font-family: "Bellota", cursive;
+    font-size: 2rem;
+    line-height: 1.3;
+
+}
+
+span {
+    color: #fca95c;
+}
+
+.Info {
+    margin-top: 1rem;
+    font-family: "Judson", serif;
+}
+
+.formSection {
+    width: 40%;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 90px #eeecec;
+    border-radius: 12px;
+}
+
+.formSection input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.form-in {
+    margin: 1rem 1.5rem;
+}
+
+.submit {
+    background-color: #d9cdcd29;
+    width: 13rem;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-style: italic;
+    margin-left: 8rem;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding-bottom: 15px;
+    /* color: white; */
+}
+.submit:hover{
+    background-color: #fca95c;
+    border-style: none;
+    
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.policy {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.policy a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid;
+}
+
+.icon-bar {
+    background-color: #D9D9D9;
+}
