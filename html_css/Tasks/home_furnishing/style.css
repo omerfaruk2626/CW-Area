@@ -233,8 +233,7 @@ div.options1 {
     border-radius: 10px;
     background-color: rgba(238, 236, 236, );
     box-shadow: 2px 2px 90px #eeecec;
-    -webkit-transition: all 1s ease;
-    transition:  all 1.5s ease;
+    
 }
 
 .ch1 img {
@@ -245,6 +244,9 @@ div.options1 {
     border-radius: 2rem;
     filter: brightness(40%);
     /* position: relative; */
+-webkit-transition: all 2s ease;
+    transition:  all 2s ease;
+
 }
 
 .ch1 p {
