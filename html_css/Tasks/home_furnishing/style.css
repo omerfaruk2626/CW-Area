@@ -282,12 +282,18 @@ div.options1 {
     position: relative;
     -webkit-transition: all 1s ease;
     transition:  all 1.5s ease;
+    opacity: 0.5;
+    /* z-index: -1; */
 }
 
 .ch2 img:hover {
-    filter: brightness(40%);
+    /* filter: brightness(40%); */
     transition: 5,5s;
+    opacity: 1;
+    z-index: 11; 
+    transform: scale(1.1) translateY(-10px);
 }
+
 
 
 .contact {
