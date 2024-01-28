@@ -1,22 +1,29 @@
-document.addEventListener('DOMContentLoaded', function () {
-    // Video elementini seçin
-    var video = document.querySelector('.header-video');
+document.addEventListener("DOMContentLoaded", function () {
+    const video = document.querySelector('.header-video');
+    const muteButton = document.getElementById('muteButton');
 
-    // Mute butonunu seçin
-    var muteButton = document.getElementById('muteButton');
+    let isMuted = false;
 
-    // Mute butonunu en sağa konumlandırın
-    document.querySelector('.mute').style.marginLeft = 'auto';
+    function toggleMute() {
+        isMuted = !isMuted;
+        video.muted = isMuted;
+    }
 
-    // Videoya tıklama dinleyicisi ekleyin
-    muteButton.addEventListener('click', function () {
-        // Video sessiz ise, sesi açın; aksi takdirde sessizleştirin
-        if (video.muted) {
-            video.muted = false;
-            muteButton.textContent = 'Mute';
-        } else {
-            video.muted = true;
-            muteButton.textContent = 'Unmute';
-        }
-    });
+    muteButton.addEventListener('click', toggleMute);
 });
+
+function openModal(imageSrc, altText) {
+    var modal = document.getElementById('myModal');
+    var modalImage = document.getElementById('modalImage');
+
+    modal.style.display = 'flex';  // Display the modal
+    modalImage.src = imageSrc;     // Set the image source
+    modalImage.alt = altText;      // Set the alt text
+}
+
+function closeModal() {
+    var modal = document.getElementById('myModal');
+    modal.style.display = 'none';  // Hide the modal
+}
+
+
