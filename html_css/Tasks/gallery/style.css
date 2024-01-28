@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.363);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+/* ------------- */
+/*! HEADER */
+/* ------------- */
+.header{
+    width: 100%;
+    height: 15%;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.head h1{
+    padding-top: 15px;
+    font-size: 2rem;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a{
+    padding: 15px;
+    text-decoration: none;
+}
+
+/* ------------- */
+/*! MAİN */
+/* ------------- */
+
+.main{
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(255, 0, 0);
+    background-color: beige;
+    padding: 0rem 12rem;
+}
+.seasons-part1, .seasons-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.seasons-part2{
+    gap: 20rem;
+}
+
+.spring, .summer, .autumn, .winter{
+    width: 20rem;
+    height: 15rem;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: aquamarine;
+    margin: 15px;
+    border-radius: 15px;
+}
+.spring p{
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    z-index: -1;
+    color: black;
+}
+
+.photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+img{
+    border-radius: 15px;
+    width: 17rem;
+    height: 12rem;
+}
+
+/* ------------- */
+/*! FOOTER */
+/* ------------- */
+
+.footer{
+    width: 100%;
+    height: 8%;
+    border: 2px solid black;
+    background-color: rgba(13, 10, 85, 0.352);
+    text-align: center;
+    padding-top: 15px;
+}
