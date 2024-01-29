@@ -12,14 +12,15 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    backdrop-filter: blur(5px);
+    
     filter: blur(5%);
 }
 
 .container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    backdrop-filter: blur(5px);
 }
 
 /* --------------------------------------------- */
@@ -27,7 +28,7 @@ body{
 /* --------------------------------------------- */
 .header {
     width: 100%;
-    height: 15%;
+    height: 6rem;
     /* border: 2px solid black; */
     background-color: rgba(0, 255, 255, 0.42);
     position: sticky;
@@ -42,8 +43,8 @@ body{
     align-items: center;
     position: relative;
     z-index: 11;
-
 }
+
 .header-video{
     position: absolute;
     top: 0;
@@ -58,7 +59,7 @@ body{
 
 .head h1 {
     padding-top: 15px;
-    padding-bottom: 7px;
+    padding-bottom: 10px;
     font-size: 1.5rem;
     color: rgb(0, 0, 0);
     font-weight: 900;
@@ -118,8 +119,10 @@ body{
     position: fixed;
     top: 0;
     left: 0;
+    buttom:0;
+    right: 0;
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: center;
     align-items: center;
@@ -158,6 +161,7 @@ body{
 .main {
     width: 100%;
     height: auto;
+    /* border: 2px solid black; */
 }
 
 .seasons-part1,
@@ -168,14 +172,14 @@ body{
     flex-wrap: wrap;
     gap: 8rem;
     padding: 2rem 10rem;
-    height: 100%;
+    height: 100vh;
 }
 
 .seasons-part2{
     margin-top: 9%;
 }
 .seasons-part1{
-    margin-top: 1%;
+    /* margin-top: 1%; */
 }
 .spring,
 .summer,
@@ -185,7 +189,7 @@ body{
     height: 14.6rem;
     /* border: 2px solid rgb(0, 0, 0); */
     background-color: rgba(127, 255, 212, 0.447);
-    margin: 15px;
+    margin: 1% 5%;
     border-radius: 15px;
     box-shadow: 3px 3px 10px black;
 }
