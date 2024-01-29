@@ -9,7 +9,11 @@
 body{
     background-image: url(./images/Seaons_tree.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     backdrop-filter: blur(5px);
+    filter: blur(5%);
 }
 
 .container {
@@ -29,6 +33,7 @@ body{
     position: sticky;
     top:0;
     color: white;
+    z-index: 11;
 }
 
 .head {
@@ -36,7 +41,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 1;
+    z-index: 11;
 
 }
 .header-video{
@@ -46,7 +51,7 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: 10;
     opacity: 0.7;
 }
 
@@ -54,7 +59,7 @@ body{
 .head h1 {
     padding-top: 15px;
     padding-bottom: 7px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: rgb(0, 0, 0);
     font-weight: 900;
     font-family: 'Sixtyfour', sans-serif;
@@ -64,6 +69,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* z-index: 11; */
 }
 
 .links a {
@@ -73,6 +79,12 @@ body{
     border-radius: 15px;
     margin-left: 7px;
     background-color: rgb(176, 38, 249);
+    z-index: 11;
+    height: 35px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .links a:hover {
@@ -83,7 +95,7 @@ body{
     position: absolute;
     top: 10px;
     right: 10px;
-    z-index: 2;
+    z-index: 2222;
 }
 
 .mute a {
@@ -94,6 +106,7 @@ body{
     width: 30px;
     height: 30px;
     cursor: pointer;
+    
 }
 
 .mute img:hover {
@@ -110,6 +123,7 @@ body{
     background-color: rgba(0, 0, 0, 0.8);
     justify-content: center;
     align-items: center;
+    z-index: 15;
 }
 
 .modal-content {
@@ -118,6 +132,7 @@ body{
     margin: auto;
     overflow: hidden;
     position: relative;
+  
 }
 
 .modal-content img {
@@ -142,8 +157,7 @@ body{
 
 .main {
     width: 100%;
-    height: 99%;
-    padding: 0rem 12rem;
+    height: auto;
 }
 
 .seasons-part1,
@@ -152,7 +166,9 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 18rem;
+    gap: 8rem;
+    padding: 2rem 10rem;
+    height: 100%;
 }
 
 .seasons-part2{
@@ -185,7 +201,8 @@ body{
     padding-bottom: 0.6rem;
     position: relative;
     cursor: zoom-out;
-    filter: blur(5%);
+    
+    /* z-index: 1; */
 }
 
 .main img {
@@ -194,6 +211,7 @@ body{
     height: 13rem;
     filter: blur(1px);
     transition: filter 2s ease;
+    /* z-index: 1; */
 
 }
 
@@ -212,6 +230,7 @@ body{
     border-radius: 10px;
     opacity: 1;
     transition: opacity 1s ease;
+    /* z-index: 1; */
 }
 
 .summer-photos:hover .summer-hover-text,
@@ -219,6 +238,7 @@ body{
 .spring-photos:hover .spring-hover-text,
 .winter-photos:hover .winter-hover-text {
     opacity: 0;
+    /* z-index: 14; */
 }
 /* --------------------------hovers-part--------------------------- */
 
@@ -228,6 +248,7 @@ body{
 .winter-photos img:hover {
     filter: blur(0);
     transition: filter 3.2s ease;
+    /* z-index: 14; */
 }
 
 /* --------------------------------------------- */

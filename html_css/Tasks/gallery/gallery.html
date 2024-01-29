@@ -5,22 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery'M</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
-    
+    <video class="video" src="./videos/videoo.mp4" autoplay loop></video>
     <div class="container">
         <!-- --------------------------------header----------------------------- -->
-        <div class="header">
-            <video class="header-video" src="./videos/videoo.mp4" autoplay loop></video>
+        <div class="header" id="header">
+
             <div class="head">
                 <h1>Winter has come!</h1>
             </div>
             <div class="links">
                 <a href="index.html">Home</a>
                 <a href="https://github.com/omerfaruk2626" target="_blank">About</a>
-                <a href="galeri.html">Gallery</a>
+                <a href="gallery.html">Gallery</a>
 
             </div>
             <div class="mute" id="muteButton">
@@ -28,19 +28,21 @@
             </div>
         </div>
         <!-- ------------------------------main--------------------------------- -->
-        <div class="main">     
-            <img src="images/summer/1.jpg" alt="">
-            <img src="images/summer/2.jpg" alt="">
-            <img src="images/summer/3.jpg" alt="">
-            <img src="images/autmn/1.jpg" alt="">
-            <img src="images/autmn/2.jpg" alt="">
-            <img src="images/autmn/3.jpg" alt="">
-            <img src="images/spring/1.jpg" alt="">
-            <img src="images/spring/2.jpg" alt="">
-            <img src="images/spring/3.jpg" alt="">
-            <img src="images/winter/1.jpg" alt="">
-            <img src="images/winter/2.jpg" alt="">
-            <img src="images/winter/3.jpg" alt="">
+        <div class="main">
+            <div class="photos">
+                <img src="images/summer/1.jpg" alt="">
+                <img src="images/summer/2.jpg" alt="">
+                <img src="images/summer/3.jpg" alt="">
+                <img src="images/autmn/1.jpg" alt="">
+                <img src="images/autmn/2.jpg" alt="">
+                <img src="images/autmn/3.jpg" alt="">
+                <img src="images/spring/1.jpg" alt="">
+                <img src="images/spring/2.jpg" alt="">
+                <img src="images/spring/3.jpg" alt="">
+                <img src="images/winter/1.jpg" alt="">
+                <img src="images/winter/2.jpg" alt="">
+                <img src="images/winter/3.jpg" alt="">
+            </div>
         </div>
         <div id="myModal" class="modal">
             <span class="close" onclick="closeModal()">&times;</span>
@@ -53,6 +55,7 @@
             <P>Codefighters Copyright &copy; 2024</P>
         </div>
     </div>
+    <div class="goTopBtn"><a href="gallery.html#header"><img src="ok.png" alt=""></a></div>
     <script src="scripts.js"></script>
 </body>
 
