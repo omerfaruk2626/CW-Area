@@ -17,10 +17,8 @@ body {
     background-color: rgba(0, 0, 0, 0.418);
     display: flex;
     justify-content: center;
-    height: 52rem;
-    width: 117rem;
-    margin-top: 3rem;
-    margin-left: 1rem;
+    width: 100%;
+
 }
 
 .header {
