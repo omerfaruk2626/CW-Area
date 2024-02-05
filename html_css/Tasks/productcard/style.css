@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  body {
+    background-color: #efefef;
+  }
+  
+
+  .container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+  }
+  
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 500px;
+
+  }
+  h1{
+    font-family: 'Protest Revolution', sans-serif;
+  }
+  .photos {
+    width: 50%;
+    height: 90vh;
+    background-color: white;
+  }
+  
+  .photos img {
+    width: 100%;
+    height: 100%;
+  }
+  .s-photo {
+    width: 200px;
+  }
+
+  .info {
+    width: 50%;
+    background-color: #fff;
+    padding: 35px 40px;
+    height: 90vh;
+  }
+  
+
+  .trademark {
+    padding: 10px 0;
+    /* height: 30%; */
+  }
+
+
+  .details {
+    padding: 10px 0;
+  }
+  
+  .details h1 {
+      font-size: 2rem;
+      font-family: 'Protest Revolution', sans-serif;
+  }
+  .details .title {
+    color: #3a3a3a;
+    font-size: 2rem;
+  }
+  
+  .details .text {
+    color: #555;
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+
+  .div-storages {
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  
+  .div-storages .title {
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .storages {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .storages .storage {
+    width: 80px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #eee;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+
+  .buy-price {
+    align-items: center;
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  }
+ 
+
+  
+  .buy-price .price h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1;
+    /* margin: 50px 0; */
+  }
+  
+
+
+  
+  .buy-price a{
+    text-decoration: none;
+    margin: 50px 0;
+    background-color: #2175f5;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+
+
+  @media screen and (max-width: 1100px) {
+    .content {
+      flex-direction: column;
+    }
+    .photos {
+      width: 100%;
+      height: 600px
+    }
+    
+    .info {
+      width: 100%;
+    }
+    
+  }
+  @media screen and (max-width: 740px) {
+    .buy-price {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .photos {
+        width: 100%;
+        height: auto;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .kolay {
+        width: 100%;
+    }
+
+    .buy-price img {
+        width: 50px;
+    }
+}
