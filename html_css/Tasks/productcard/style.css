@@ -121,30 +121,9 @@
   align-items: center;
   justify-content: space-around;
   }
- 
-
-  
-  .buy-price .price h1 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    line-height: 1;
-    /* margin: 50px 0; */
-  }
-  
-
-
-  
-  .buy-price a{
-    text-decoration: none;
-    margin: 50px 0;
-    background-color: #2175f5;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1rem;
-    border-radius: 5px;
-    padding: 10px 20px;
-  }
-
+.buy-price img {
+    width: 100px;
+ }
 
   @media screen and (max-width: 1100px) {
     .content {
