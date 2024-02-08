@@ -76,7 +76,9 @@ body {
     background-color: rgb(254, 217, 169);
     transition: 1.5s;
     box-shadow: 15px 12px 5px rgba(0, 0, 0, 0.5);
-    background: linear-gradient(to bottom, rgb(255, 228, 196), rgb(245, 216, 177));
+    background: linear-gradient(to bottom right, rgb(255, 228, 196) 60%, rgb(245, 216, 177));
+
+
 
 }
 
