@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Rubik+Glitch+Pop&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 228, 196);
+}
+
+
+
+.container {
+    display: grid;
+    align-items: center;
+
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.row1{
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.row2 {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    /* gap: 1rem; */
+    position: relative;
+}
+
+.content {
+    /* border: 5px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Glitch Pop', cursive;
+    font-size: 15rem;
+    color: rgb(63, 52, 72);
+    margin: 1rem;
+    border-radius: 15px;
+    height: 300px;
+}
+
+.protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content p{
+    filter: blur(12px);
+    transition: 6.6s;
+    /* display: none; */
+}
+.content:hover p{
+    background-color: beige;
+    filter: blur(1px);
+    transition: 0.6s;
+    background-color: rgba(127, 255, 212, 0);
+
+
+}
+.content:hover{
+    cursor: pointer;
+    background-color: rgb(254, 217, 169);
+    transition: 1.5s;
+    box-shadow: 15px 12px 5px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to bottom, rgb(255, 228, 196), rgb(245, 216, 177));
+
+}
+
+.content1:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .row1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .content {
+        margin: 5px;
+        width: 300px;
+        font-size: 9rem;
+    }
+}
+
+@media screen and (max-width: 699px) {
+
+    .row1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .content {
+        margin: 5px;
+        width: 200px;
+        font-size: 7rem;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .row1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .content {
+        margin: 5px;
+        width: 200px;
+        font-size: 5rem;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 439px) {
+
+    .row1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .content {
+        margin: 5px;
+        width: 150px;
+        font-size: 5rem;
+        height: 120px;
+    }
+}
+@media screen and (max-width: 352px) {
+
+    .row1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+    }
+
+    .row2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .content {
+        margin: 5px;
+        width: 100px;
+        font-size: 3rem;
+        height: 100px;
+    }
+}
