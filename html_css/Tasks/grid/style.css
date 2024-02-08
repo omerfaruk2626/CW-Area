@@ -59,7 +59,7 @@ body {
 }
 
 .content p{
-    filter: blur(12px);
+    filter: blur(5px);
     transition: 6.6s;
     /* display: none; */
 }
