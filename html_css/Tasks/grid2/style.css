@@ -10,13 +10,13 @@
     align-items: center;
     justify-content: center;
     margin: 1rem;
-    padding: 1rem;
+    padding: 2rem;
   }
   .co-container {
-    padding: 1rem;
+    padding: 2rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     column-gap: 1rem;
     row-gap: 1rem;
     width: 100%;
@@ -24,17 +24,12 @@
     grid-template-areas:
       "header header header header"
       "small-1 small-2 small-3 sidebar"
-      "small-1 small-2 small-3 sidebar"
-      "small-1 small-2 small-3 sidebar"
-      "main main main sidebar"
-      "main main main sidebar"
       "main main main sidebar"
       "footer footer footer footer";
   }
   .content {
     background-color: rgba(65, 65, 254, 0.724);
     border: 1px solid black;
-    width: 100%;
     height: 100%;
     display: grid;
     font-size: 2rem;
@@ -42,6 +37,7 @@
   }
   .content1 {
     grid-area: header;
+    height: 10rem;
   }
   .content2 {
     grid-area: small-1;
@@ -54,10 +50,12 @@
   }
   .content5 {
     grid-area: sidebar;
+    height: 80rem;
   }
   .content6 {
     grid-area: main;
   }
   .content7 {
     grid-area: footer;
+    height: 10rem;
   }
