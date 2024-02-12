@@ -1,0 +1,156 @@
+@import url('https://fonts.cdnfonts.com/css/scoreboard-type-personal');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-image: url(a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    /* padding: 100px; */
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+/*! ----------------------------- TEXT ---------------- */
+
+
+.text {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    width: 400px;
+    border: 4px solid white;
+}
+
+.text p {
+    color: green;
+    font-size: 4rem;
+    margin: 0;
+    padding-top: 10px;
+    white-space: nowrap;
+    animation: marquee 8s linear infinite;
+    font-family: 'SCOREBOARD TYPE ITALIC PERSONAL', sans-serif;
+}
+
+@keyframes marquee {
+    0%, 100% {
+        transform: translateX(100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+
+
+/*! ----------------------------- BOXES ---------------- */
+
+
+
+.box {
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(162, 110, 47); */
+    border-radius: 50%;
+}
+
+.box1 img {
+    width: 40%;
+    height: 40%;
+}
+.box2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ------------BOX 1------------------ */
+
+.box1 {
+    animation: bounce1 1.6s ease-in-out infinite, moveDown1 2s ease-in-out infinite;
+}
+
+@keyframes bounce1 {
+    0%,
+    100% {
+        transform: translateY(50px) scale(1.8) scaleY(1);
+    }
+
+    50% {
+    transform: translateY(200px) scaleX(1.6) scale(1.4);
+}
+
+    50% {
+    transform: translateY() scale(1)scaleX(-4);
+}
+}
+
+@keyframes moveDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(100px);
+    }
+}
+
+/* ------------BOX 2------------------ */
+
+.box2 {
+    animation: bounce2 1.3s ease-in-out infinite, moveU2 1s ease-in-out infinite;
+}
+
+@keyframes bounce2 {
+
+    0%,
+    100% {
+        transform: translateY(10px) scale(7) scaleY(1);
+        box-shadow-buttom: ;
+    }
+
+    50% {
+    transform: translateY(300px) scaleX(1.6) scale(1);
+}
+
+    50% {
+    transform: translateY() scale(2)scaleX(2);
+}
+}
+
+@keyframes moveUp2 {
+
+    0%,
+    100% {
+        transform: translateY(30px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+}
