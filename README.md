@@ -1,4 +1,4 @@
-This is my HTML-CSS area. And, There are my studies in here.
+This is my CW - area. And, There are my studies in here.
 ---------------------------------------------------------------------------------------------------
 <b>Assigments<b><br>
 #0 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/animation/ <br>
