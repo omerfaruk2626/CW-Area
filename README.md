@@ -1,6 +1,6 @@
 This is my HTML-CSS area. And, There are my studies in here.
 ---------------------------------------------------------------------------------------------------
-Assigments
+<b>Assigments<b><br>
 #0 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/animation/ <br>
 #1 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/anthony/ <br>
 #2 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/Clarusway_info_page/ <br>
@@ -18,7 +18,7 @@ Assigments
 
 
 ---------------------------------------------------------------------------------------------------
-Coding_Challenges
+<b>Coding_Challenges<b><br>
 #0 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/guess/ <br>
 #1 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/js-4işlem/ <br> 
 #2 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/leap_year/ <br> 
