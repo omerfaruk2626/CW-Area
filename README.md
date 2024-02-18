@@ -1,27 +1,28 @@
 This is my HTML-CSS area. And, There are my studies in here.
 ---------------------------------------------------------------------------------------------------
 Assigments
-#0 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/animation/
-#1 https://becooon.github.io/HTML-CSS/Assigments/SS-1/ 
-#2 https://becooon.github.io/HTML-CSS/Assigments/SS-2/ 
-#3 https://becooon.github.io/HTML-CSS/Assigments/SS-3/ 
-#4 https://becooon.github.io/HTML-CSS/Assigments/SS-4/ 
-#5 https://becooon.github.io/HTML-CSS/Assigments/SS-5/ 
-#6 https://becooon.github.io/HTML-CSS/Assigments/SS-6/ 
-#7 https://becooon.github.io/HTML-CSS/Assigments/SS-7/installation
+#0 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/animation/ <br>
+#1 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/anthony/ <br>
+#2 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/Clarusway_info_page/ <br>
+#3 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/gallery/ <br>
+#4 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/grid/ <br>
+#5 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/grid2/ <br>
+#6 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/grid3/ <br>
+#7 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/home_furnishing/ <br> 
+#8 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/media_quare/ <br>
+#9 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/Netflix/ <br>
+#10 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/parallax/ <br>
+#11 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/productcard/ <br>
+#11 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/stan-lee/ <br><br><br>
+
+
 
 ---------------------------------------------------------------------------------------------------
 Coding_Challenges
-#0 https://becooon.github.io/HTML-CSS/Coding_Challenges/00-Stanlee-Web-Page/ #1 https://becooon.github.io/HTML-CSS/Coding_Challenges/01-Calculator/ #2 https://becooon.github.io/HTML-CSS/Coding_Challenges/02-Media-Query/ #3 https://becooon.github.io/HTML-CSS/Coding_Challenges/03-Grid/ #4 https://becooon.github.io/HTML-CSS/Coding_Challenges/04-Animation/
+#0 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/guess/ <br>
+#1 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/js-4işlem/ <br> 
+#2 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/leap_year/ <br> 
+#3 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/seasons/ <br> <br><br>
 
 ---------------------------------------------------------------------------------------------------
-Projects
-#1 https://becooon.github.io/HTML-CSS/Projects/001-Survey_form/ #2 https://becooon.github.io/HTML-CSS/Projects/002-Parallax_Page/ #3 https://becooon.github.io/HTML-CSS/Projects/003-Home-Furnishing-Page/
 
----------------------------------------------------------------------------------------------------
-Free-Studies
-#0 https://becooon.github.io/HTML-CSS/Free-studies/00-Form/ #1 https://becooon.github.io/HTML-CSS/Free-studies/01-chess/ #2 https://becooon.github.io/HTML-CSS/Free-studies/02-Log_in_page/
-
----------------------------------------------------------------------------------------------------
-Repetitions
-#1 https://becooon.github.io/HTML-CSS/Repetitions/01-animation/ 
