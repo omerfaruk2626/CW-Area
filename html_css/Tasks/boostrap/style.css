@@ -1,0 +1,12 @@
+.navbar{
+    background-color: rgb(48, 46, 46) !important;
+}
+
+.banner {
+    background: url(./images/banner.jpeg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(0, 0, 0);
+    height: 100vh;
+}
