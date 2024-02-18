@@ -5,8 +5,81 @@
 .banner {
     background: url(./images/banner.jpeg) no-repeat center center;
     background-size: cover;
-    padding-top: 20%;
+    padding-top: 30%;
     padding-bottom: 20%;
     color: rgb(0, 0, 0);
     height: 100vh;
 }
+
+
+.cardes {
+    width: 100%;
+    
+}
+.staff-img {
+    /* border: 2px solid red; */
+    width: 80%;
+    border-radius: 50%;
+    margin: auto;
+  }
+  .staff-img img:hover {
+    /* transform: scale(1.03); */
+    cursor: pointer;
+  }
+  .staff-img img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    outline: 8px solid gray;
+    outline-offset: 8px;
+    /* transition: all 0.5s; */
+  }
+  .staff-img a {
+    /* border: 2px solid rgb(133, 11, 11); */
+    background-color: black;
+    display: inline-block;
+    margin: auto;
+    padding: 0.7rem;
+    /* text-align: center; */
+    /* transition: all 0.3s; */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    /* position: relative; */
+    /* vertical-align: middle; */
+  }
+  .staff-img a i {
+    /* border: 2px solid orange; */
+    /* position: absolute;
+    top: 50%;
+    right: 50%; */
+    /* margin: auto; */
+  }
+  .staff-img a:hover {
+    /* border-radius: 50%; */
+    box-shadow: 0 0 10px rgb(255, 166, 0);
+    transform: scale(0.95);
+  }
+  .border-link {
+    /* border: 2px solid red; */
+    background-color: #212529;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+  }
+  .border-link a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+  }
+  .border-link:hover {
+    transform: scale(0.9);
+    box-shadow: 0 0 10px yellow;
+  }
+  .border-link i {
+    border-radius: 50%;
+  }
