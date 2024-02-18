@@ -1,7 +1,7 @@
 This is my HTML-CSS area. And, There are my studies in here.
 ---------------------------------------------------------------------------------------------------
 Assigments
-#0 https://omerfaruk2626.github.io/CW-Areahtml_css/Tasks/animation/
+#0 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/animation/
 #1 https://becooon.github.io/HTML-CSS/Assigments/SS-1/ 
 #2 https://becooon.github.io/HTML-CSS/Assigments/SS-2/ 
 #3 https://becooon.github.io/HTML-CSS/Assigments/SS-3/ 
