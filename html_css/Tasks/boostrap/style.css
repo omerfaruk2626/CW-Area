@@ -3,18 +3,34 @@
 }
 
 .banner {
-    background: url(./images/banner.jpeg) no-repeat center center;
-    background-size: cover;
-    padding-top: 30%;
-    padding-bottom: 20%;
-    color: rgb(0, 0, 0);
-    height: 100vh;
+  background: url(./images/tech.jpg) no-repeat center center;
+  background-size: cover;
+  padding-top: 15%;
+  color: rgb(0, 0, 0);
+  height: 100vh;
+  position: relative;
+  /* Backdrop filter efekti */
+  backdrop-filter: saturate(10%) blur(15px);
 }
 
-
-.cardes {
-    width: 100%;
-    
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.425) 0%, rgba(255, 255, 255, 0.658) 100%);
+  z-index: -1;
+}
+#services{
+  /* margin-top: 12rem !important; */
+}
+#team {
+  background-color: coral;
+}
+#projects {
+  background-color: darkviolet;
 }
 .staff-img {
     /* border: 2px solid red; */
@@ -82,4 +98,23 @@
   }
   .border-link i {
     border-radius: 50%;
+  }
+
+
+  @media screen and (max-width: 608px) {
+    .banner{
+    padding-top: 55%;
+        
+    
+    }
+    #whoeareyou{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 408px) {
+    
+    #whoeareyou{
+        width: 100% !important;
+    }
   }
