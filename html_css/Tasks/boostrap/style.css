@@ -100,6 +100,16 @@
     border-radius: 50%;
   }
 
+  .contact {
+    position: relative;
+    background: url(./images/contact.jpg) no-repeat center center;
+    /* background-size: cover; */
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: #ffffff;
+    overflow: hidden; /* Arka planı sınırlamak için */
+}
+
 
   @media screen and (max-width: 608px) {
     .banner{
@@ -116,5 +126,8 @@
     
     #whoeareyou{
         width: 100% !important;
+    }
+    #exampleFormControlTextarea1{
+      margin-top: 5% !important;
     }
   }
