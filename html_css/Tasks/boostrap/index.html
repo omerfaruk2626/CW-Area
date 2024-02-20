@@ -278,21 +278,78 @@
       <h2 class="display-3 text-center fw-bold" id="contact">Contact us</h2>
       <div class="row pb-3">
         <div class="col-md-6">
-          <input class="form-control form-control-lg mb-3" type="text" placeholder="Name">
-          <input class="form-control form-control-lg mb-3" type="text" placeholder="Email">
-          <input class="form-control form-control-lg" type="text" placeholder="Phone Number">
+          <input class="form-control form-control-lg mb-3" type="text" id="name" placeholder="Name">
+          <input class="form-control form-control-lg mb-3" type="text" id="email" placeholder="Email">
+          <input class="form-control form-control-lg" type="text" id="phoneNumber" placeholder="Phone Number">
         </div>
         <div class="col-md-6">
-          <textarea class="form-control form-control-lg " rows="5" id="exampleFormControlTextarea1"></textarea>
+          <textarea class="form-control form-control-lg " rows="5" id="message" placeholder="Your Message"></textarea>
         </div>
       </div>
       <div class="col-md-3 mx-auto text-center">
-        <button type="button" class="btn btn-dark btn-lg">
+        <button type="button" class="btn btn-dark btn-lg" id="sendMessageBtn" data-toggle="modal"
+          data-target="#messageModal">
           Send Message
         </button>
       </div>
     </div>
   </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="messageModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="messageModalLabel">Your message has reached us successfully.</h5>
+        </div>
+        <div class="modal-body">
+          <p><strong>Name:</strong> <span id="modalName"></span></p>
+          <p><strong>Email:</strong> <span id="modalEmail"></span></p>
+          <p><strong>Phone Number:</strong> <span id="modalPhoneNumber"></span></p>
+          <p><strong>Message:</strong> <span id="modalMessage"></span></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="closeModalAndReload()">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"
+    integrity="sha384-c7JlGumihj8e8JzwN3BwCf9Yf1EVCf8aNbd2rFocYbrU/pzujLBDd/KFWhPzQ9o" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy6X0pgLkyqj21hXQOF1FxU2tLIIWoGq" crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      $("#sendMessageBtn").click(function () {
+        var name = $("#name").val();
+        var email = $("#email").val();
+        var phoneNumber = $("#phoneNumber").val();
+        var message = $("#message").val();
+
+        $("#modalName").text(name);
+        $("#modalEmail").text(email);
+        $("#modalPhoneNumber").text(phoneNumber);
+        $("#modalMessage").text(message);
+
+        $("#messageModal").modal("show");
+      });
+    });
+  </script>
+  <script>
+    function closeModalAndReload() {
+      $('#messageModal').modal('hide'); // Hide the modal
+      location.reload(); // Reload the page
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI/t1ek/2PExN1zpzHWPXNhkNLeEpT/8aPfr920k=" crossorigin="anonymous"></script>
   <!--!----------------------------FOOTER---------------------------------->
 
   <!--! ---------------------------------------------------------------- -->
