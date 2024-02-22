@@ -33,8 +33,15 @@ const navItemList = document.querySelectorAll('.nav-item li');
 
 navItemList.forEach(li => {
     li.style.listStyle = 'none';
+    li.style.cursor = 'pointer';
 });
 
+const navItemaList = document.querySelectorAll('.nav-item a');
+
+navItemaList.forEach(a => {
+    a.style.textDecoration = 'none';
+    a.style.color = 'white';
+});
 
 
 //! ---------------------------*MAİN*-----------------------------/
@@ -66,12 +73,16 @@ passwordInput.readOnly = true;
 
 
 const login = document.getElementById('login');
-login.style.padding = '10px';
-login.textContent = 'Giriş Yap';
-login.style.backgroundColor = 'rgb(255,169,20';
-login.style.borderRadius = '5px';
-login.style.cursor = 'pointer';
-login.style.borderStyle = 'none';
+    login.style.padding = '10px';
+    login.textContent = 'Giriş Yap';
+    login.style.backgroundColor = 'rgb(255,169,20)';
+    login.style.borderRadius = '5px';
+    login.style.cursor = 'pointer';
+    login.style.borderStyle = 'none';
+
+    login.addEventListener('click', function() {
+        window.open('https://becooon.github.io/HTML-CSS/Free-studies/03-Billiard/', '_blank');
+    });
 
 
 login.addEventListener('mouseover', function() {
