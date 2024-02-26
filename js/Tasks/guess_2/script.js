@@ -23,7 +23,7 @@ document.body.appendChild(section4);
 section1.style = "width: 100%; height: 100vh; background-image: url('png.png'); background-size: cover; background-position: center; display: flex; justify-content: center; flex-direction: column; align-items: center;"
 section2.style = "width: 100%; height: 100vh; background-color: pink; display: none;"
 section3.style = "width: 100%; height: 100vh; background-color: green; display: none;"
-section4.style = "width: 100%; height: 100vh; background-color: yellow; display: none;"
+section4.style = "width: 100%; height: 100vh; background-color: green; display: none;"
 
 //! ----------------------------TEXTS----------------------------//
 
@@ -105,7 +105,7 @@ play.addEventListener("click", () => {
     section1.style.display = "none";
     section2.style.display = "none";
     section3.style.display = "none";
-    section4.style = "width: 100%; height: 100vh; background-color: magenta; display: flex; justify-content: center; flex-direction: column; align-items: center;"
+    section4.style = "width: 100%; height: 100vh; background-color: rgb(2, 255, 2); display: flex; justify-content: center; flex-direction: column; align-items: center;"
     audio3.pause();
     audio5.play();
     input.focus();
@@ -139,7 +139,7 @@ function getRandomColor() {
 
 //? ------------------ SOUND EFFECT ----------------------//
 
-const audio1 = new Audio('sonkarar.mp3');
+const audio1 = new Audio('heart.mp3');
 const audio2 = new Audio('magic1.mp3');
 const audio3 = new Audio('kahoot_lobi.mp3');
 const audio5 = new Audio('kahoot.mp3');
@@ -181,11 +181,6 @@ const resultMessage = document.createElement("p");
 resultMessage.style.fontSize = "1.2rem";
 section4.appendChild(resultMessage);
 
-
-
-
-// (Önceki Kod)
-
 document.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
         checkNumber();
@@ -217,11 +212,9 @@ function checkNumber() {
                 video1.style.display = "none";
                 audio5.pause();
                 audio6.play();
-
-                // 5 saniye sonra section4'ü gizle, section1'i görünür yap
                 section4.style.display = "none";
                 section1.style.display = "flex";
-            }, 5000);
+            }, 3000);
         }
     }
 
