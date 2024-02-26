@@ -144,7 +144,7 @@ const audio2 = new Audio('magic1.mp3');
 const audio3 = new Audio('kahoot_lobi.mp3');
 const audio5 = new Audio('kahoot.mp3');
 const audio4 = new Audio('alarm.mp3');
-const audio6 = new Audio('congratulations.mp4');
+const audio6 = new Audio('congratulations.mp3');
 //? -------------------- VİDEO ----------------------------//
 
 const video1 = document.createElement("video");
@@ -211,9 +211,17 @@ function checkNumber() {
             setTimeout(() => {
                 video1.style.display = "none";
             }, 5000);
-            video1.style.borderRadius = "10px";
             audio5.pause();
             audio6.play();
+            setTimeout(() => {
+                video1.style.display = "none";
+                audio5.pause();
+                audio6.play();
+
+                // 5 saniye sonra section4'ü gizle, section1'i görünür yap
+                section4.style.display = "none";
+                section1.style.display = "flex";
+            }, 5000);
         }
     }
 
