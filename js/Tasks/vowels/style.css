@@ -49,6 +49,15 @@ body{
     border-radius: 10px;
 }
 
+#btn:hover{
+    background: #918f8f;
+    color: #000000;
+}
+
+#output{
+    font-size: 25px;
+    color: #000000;
+}
 
 @media screen and (max-width: 500px) {
     #input{
