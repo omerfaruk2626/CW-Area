@@ -18,8 +18,13 @@ player1btn.addEventListener("click", function () {
       player2Display.style = "color: red; font-weight: 900;";
       player1Display.style = "color: green; font-weight: 900;";
       audio1.play();
-
       score.value = 0;
+      setTimeout(function () {
+        player2Display.style = "color: white; ";
+        player1Display.style = "color: white;";
+        player1Display.textContent = 0;
+        player2Display.textContent = 0;
+      }, 3000)
     }
   }
 });
@@ -30,8 +35,13 @@ player2btn.addEventListener("click", function () {
       player2Display.style = "color: green; font-weight: 900;";
       player1Display.style = "color: red; font-weight: 900;";
       audio2.play();
-
       score.value = 0;
+      setTimeout(function () {
+        player2Display.style = "color: white; ";
+        player1Display.style = "color: white;";
+        player1Display.textContent = 0;
+        player2Display.textContent = 0;
+      }, 3000)
     }
   }
 });
