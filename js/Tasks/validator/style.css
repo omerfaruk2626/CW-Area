@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffdcdc;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+}
+
+.content h1 {
+    font-family: "Kode Mono", monospace;
+}
+
+
+
+/** ----------------BUTON---------------- */
+
+.button89 {
+    --b: 3px;
+    --s: .15em;
+    --c: #BD5532;
+    padding: calc(.05em + var(--s)) calc(.3em + var(--s));
+    color: var(--c);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--c) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .2em;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    margin: 0px 1em;
+}
+
+.button89:hover,
+.button89:focus-visible {
+    --_p: 0px;
+    outline-color: var(--c);
+    outline-offset: .05em;
+}
+
+.button89:active {
+    background: var(--c);
+    color: #fff;
+}
+
+/** ----------------İNPUT---------------- */
+.button88 {
+    --b: 3px;
+    --s: .15em;
+    --c: #BD5532;
+    padding: calc(.05em + var(--s)) calc(.3em + var(--s));
+    color: var(--c);
+    --_p: var(--s);
+    background:
+        conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--c) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .2em;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+    margin: 0px 1em;
+    width: 250px;
+}
+
+.button88:hover,
+.button88:focus-visible {
+    --_p: 0px;
+    outline-color: var(--c);
+    outline-offset: .05em;
+}
+
+.button88:active {
+    background: var(--c);
+    color: #fff;
+}
+
+
+/*! ---------------------RESULT AREA------------------ */
+
+.resultArea {
+    height: 50vh;
+}
