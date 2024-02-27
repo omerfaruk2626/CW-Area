@@ -18,7 +18,7 @@ player1btn.addEventListener("click", function () {
       player2Display.style = "color: red; font-weight: 900;";
       player1Display.style = "color: green; font-weight: 900;";
       audio1.play();
-      score.value = 0;
+      score.value = "";
       setTimeout(function () {
         player2Display.style = "color: white; ";
         player1Display.style = "color: white;";
@@ -35,7 +35,7 @@ player2btn.addEventListener("click", function () {
       player2Display.style = "color: green; font-weight: 900;";
       player1Display.style = "color: red; font-weight: 900;";
       audio2.play();
-      score.value = 0;
+      score.value = "";
       setTimeout(function () {
         player2Display.style = "color: white; ";
         player1Display.style = "color: white;";
@@ -48,7 +48,7 @@ player2btn.addEventListener("click", function () {
 resetbtn.addEventListener("click", function () {
   player1Display.textContent = 0;
   player2Display.textContent = 0;
-  score.value = 0;
+  score.value = "";
   player2Display.style = "color: white; ";
   player1Display.style = "color: white;";
 });
