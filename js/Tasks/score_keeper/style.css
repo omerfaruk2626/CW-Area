@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(145, 120, 120);
+    color: white;
+}
+
+.scoresDiv {
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.scores_display {
+    font-size: 30px;
+}
+
+.buton {
+    padding: 10px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    border-style: none;
+}
+
+.btn1 {
+    background-color: bisque;
+}
+
+.btn2 {
+    background-color: rgb(145, 172, 224);
+}
+
+.btn3 {
+    background-color: hotpink;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .butons {
+        width: 100%;
+    }
+    .buton {
+        width: 32%;
+    padding: 1px;
+    font-size: 13px;
+    height: 50px;
+    font-weight: 900;
+    }
+    .scoresDiv {
+        margin-top: 10px;
+    }
+    
+
+}
