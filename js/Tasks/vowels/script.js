@@ -19,6 +19,7 @@ outputArea.style.visibility = "visible";
         input.value = "";
         output.textContent = "";
         outputArea.style.visibility = "hidden";
+        input.focus();
     }, 2000);
 });
 
