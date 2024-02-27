@@ -1,33 +1,30 @@
 const input = document.getElementById("input");
 const validateBtn = document.getElementById("validateBtn");
 const inputResult = document.getElementById("inputResult");
-const loader = document.querySelector(".loader");
+
+
+function formatSSN(input) {
+  // Girilen değerden "-" işaretlerini kaldır
+  var sanitized = input.value.replace(/[^0-9]/g, '');
+
+  // "-" işaretlerini uygun konumlara ekle
+  if (sanitized.length > 5) {
+    sanitized = sanitized.substring(0, 3) + '-' + sanitized.substring(3, 5) + '-' + sanitized.substring(5, 9);
+  } else if (sanitized.length > 3) {
+    sanitized = sanitized.substring(0, 3) + '-' + sanitized.substring(3);
+  }
+
+  // Formatlanmış değeri inputa geri yaz
+  input.value = sanitized;
+}
 
 validateBtn.addEventListener("click", function () {
-  validateBtn.textContent = "Validating...";
-  input.style.backgroundColor = "#ffdcdc"
-   
-  setTimeout(function () {
-   loader.style.display = "block";
-    inputResult.textContent = input.value;
-    if (input.value.length === 9) {
-      if (/^[0-9]+$/.test(input.value)) {
-        inputResult.style.color = "green";
-        inputResult.textContent = "Valid SSN";
-        input.style.backgroundColor = "#ffdcdc"
-      } else {
-        inputResult.style.color = "red";
-        inputResult.textContent = "Invalid SSN";
-        input.style.backgroundColor = "#ffdcdc"
-      }
-    } else {
-      inputResult.style.color = "black";
-      inputResult.textContent = "Input length must be 9";
-      input.style.backgroundColor = "#ffdcdc"
-    }
-    validateBtn.textContent = "Validate";
-    input.value = "";
-  }, 1000);
-  input.style.backgroundColor = "#ffdcdc";
-  
-});
+  if (input.value.length === 11) {
+    inputResult.textContent = "Valid SSN";
+    inputResult.style.color = "green";
+  } else {
+    inputResult.textContent = "Invalid SSN";
+    inputResult.style.color = "red";
+  }
+})
+

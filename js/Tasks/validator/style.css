@@ -27,6 +27,8 @@ body {
     text-align: center;
     width: 100%;
     height: 50vh;
+    position: fixed;
+    top: 0;
 }
 
 .content h1 {
@@ -112,6 +114,8 @@ body {
 
 .resultArea {
     height: 50vh;
+    position: fixed;
+    bottom: 0;
 }
 
 
