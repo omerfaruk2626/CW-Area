@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+
+.inputArea{
+    /* border: 5px solid #000000; */
+}
+
+input::placeholder{
+    text-align: right;
+}
+#tutar::placeholder {
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    .inputArea{
+        /* width: 400px; */
+    }
+    
+}
