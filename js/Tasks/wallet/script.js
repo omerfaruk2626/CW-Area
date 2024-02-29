@@ -112,3 +112,18 @@ function deleteRow(index) {
 
 populateTable();
 
+//! ----------------------------------KEYBOARD------------------------------//
+
+document.addEventListener("keypress", function (event) {
+    if (event.key === "Enter") {
+        if (tutar === document.activeElement) {
+            kaydet.click();
+        } else if (aciklama === document.activeElement) {
+            kaydet.click();
+        } else {
+            ekle.click();
+        }
+    }
+});
+
+

@@ -61,7 +61,8 @@ header{
     background-size: cover;
     background-position: center;
     border-radius: 5px;
-    padding: 0 16px 0 35px;
+    padding: 30px 16px 0 35px;
+    overflow: hidden;
     p{
         text-indent: 30px;
         line-height: 20px;
@@ -77,8 +78,8 @@ header{
 }
 .done-button{
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 1px;
+    right: 1px;
     cursor: pointer;
     width: 30px;
     height: 30px;
