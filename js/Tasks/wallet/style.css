@@ -5,10 +5,16 @@
 }
 
 body{
-    background-color: #f3f3f3;
+    background-color: #928c8c;
 }
 
-.inputArea{
+#inputs{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px black;
+    margin-bottom: 30px;
+    /* width: 500px; */
+    padding: 10px;
     /* border: 5px solid #000000; */
 }
 

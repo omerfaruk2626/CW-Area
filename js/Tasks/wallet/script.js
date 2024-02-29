@@ -34,7 +34,7 @@ function populateTable() {
 
 
 
-//! ----------------------------------GELİR------------------------------//
+//! ----------------------------------GİDER------------------------------//
 
 
 kaydet.addEventListener("click", function () {
@@ -69,7 +69,7 @@ kaydet.addEventListener("click", function () {
 ekle.addEventListener("click", function () {
     const totalInput = document.querySelector("#total");
 
-    if (totalInput) {
+    if (parseFloat(totalInput.value) > 0 && totalInput.value.trim() !== "") {
         const currentDate = new Date().toISOString().split('T')[0];
 
         data.push({
@@ -80,11 +80,17 @@ ekle.addEventListener("click", function () {
 
         gelir.innerHTML = (parseFloat(gelir.innerHTML) + parseFloat(totalInput.value)).toFixed(2);
         bakiye.innerHTML = (parseFloat(gelir.innerHTML) - parseFloat(gider.innerHTML)).toFixed(2);
+
+
         totalInput.value = "";
 
+
         populateTable();
+    } else {
+        alert("Please enter a valid amount greater than 0.");
     }
 });
+
 
 //! ----------------------------------SİLME------------------------------//
 
