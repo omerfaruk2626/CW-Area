@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>To Do List</h1>
+            <div class="form">
+                <form id="todo-form">
+                    <input type="text" id="input" placeholder="Add a new task...">
+                    <button type="submit" id="add-button">Add</button>
+                </form>
+            </div>
+        </header>
+        <main>
+            <div class="outputArea">
+                <section id="postit1" class="postit" style="display: none;">
+                    <p id="note1"></p>
+                    <img class="tik done-button" src="./images/tik.png" alt="">
+                </section>
+                <section id="postit2" class="postit" style="display: none;>
+                    <p id="note2">
+                    </p>
+                    <img class="tik done-button" src="./images/tik.png" alt="">
+                </section>
+                <section id="postit3" class="postit" style="display: none;>
+                    <p id="note3">
+                    </p>
+                    <img class="tik done-button" src="./images/tik.png" alt="">
+                </section>
+                <section id="postit4" class="postit" style="display: none;>
+                    <p id="note4">
+                    </p>
+                    <img class="tik done-button" src="./images/tik.png" alt="">
+                </section>
+                <section id="postit5" class="postit" style="display: none;>
+                    <p id="note5">
+                    </p>
+                    <img class="tik done-button" src="./images/tik.png" alt="">
+                </section>
+            </div>
+            <div class="doneArea">
+
+            </div>
+        </main>
+        <footer>
+            <div class="clear">
+                <ul id="todo-list"></ul>
+                <button id="clear-button">Clear All</button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
