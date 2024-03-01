@@ -49,8 +49,8 @@ header {
 .postit {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  /* align-items: center; */
   flex-wrap: wrap;
   height: 200px;
   width: 200px;
@@ -58,7 +58,7 @@ header {
   background-size: cover;
   background-position: center;
   border-radius: 5px;
-  padding: 30px 16px 0 35px;
+  padding: 30px 16px 0 40px;
   overflow: hidden;
 }
 .postit p {

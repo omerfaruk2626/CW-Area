@@ -25,7 +25,7 @@ const outputAreaF = () => {
   outputArea.innerHTML = "";
   newArray.forEach((item, index) => {
     const postit = document.createElement('section');
-    postit.style.padding = "30px 16px 0 35px";
+    postit.style.padding = "30px 16px 0 37px";
     postit.className = "postit";
     postit.innerHTML = `<p>${item}</p><img class="tik done-button" src="./images/tik.png" alt="">`;
 
@@ -54,7 +54,7 @@ const moveTaskToDone = (index) => {
 
 clearBtn.addEventListener("click", function () {
   newArray = [];
-  outputAreaF();
+  // outputAreaF();
   doneArea.innerHTML = ""; 
 });
 input.value = "";
