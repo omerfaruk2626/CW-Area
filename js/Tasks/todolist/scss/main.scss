@@ -6,16 +6,13 @@
 
 
 body{
-    // background-color: rgb(150, 150, 150);
-    background-image: url(../images/2.jpg);
+    background-color: rgb(150, 150, 150);
+    // background-image: url(../images/2.jpg);
+
 
 }
 .container{
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
     height: 100vh;
-    // flex-direction: column;
     color: white;
 }
 header{
@@ -93,15 +90,7 @@ header{
     transition: 0.5s;
     
 }
-// .doneArea{
-//     height: 60vh;
-//     width: 100%;
-//     display: flex;
-//     justify-content: center;
-//     gap: 10px;
-//     padding-top: 10px;
 
-// }
 #add-button, #clear-button{
     cursor: pointer;
     width: 50px;

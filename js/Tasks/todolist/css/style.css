@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: url(../images/2.jpg);
+  /* background-image: url(../images/2.jpg); */
+  background-color: rgb(103, 131, 132);
 }
 
 .container {
