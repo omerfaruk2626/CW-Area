@@ -10,8 +10,8 @@ btn.addEventListener("click", (event) => {
   event.preventDefault();
   const idNumber = input.value;
   const name = nameInput.value.trim();
-  localStorage.setItem("name", name);
-  localStorage.setItem("id", idNumber);
+  // localStorage.setItem("name", name);
+  // localStorage.setItem("id", idNumber);
 
   if (name === "" || idNumber === "") {
     alert("Please fill in all the fields.");
@@ -20,6 +20,8 @@ btn.addEventListener("click", (event) => {
     idTable.innerText = idNumber;
     statusTable.innerText = "Invalid";
     statusTable.classList.add("text-danger");
+    idTable.classList.add("text-danger");
+    nameTable.classList.add("text-danger");
   } else {
     const digits = idNumber.split("").map(Number);
     const ten =
@@ -29,6 +31,11 @@ btn.addEventListener("click", (event) => {
     const eleven = (digits.slice(0, 9).reduce((a, b) => a + b) + ten) % 10;
     if (digits[9] === ten && digits[10] === eleven) {
       statusTable.innerText = "Valid";
+      nameTable.innerText = name;
+      idTable.innerText = idNumber;
+      statusTable.classList.add("text-success");
+      idTable.classList.add("text-success");
+      nameTable.classList.add("text-success");
     } else {
       statusTable.innerText = "Invalid";
     }
