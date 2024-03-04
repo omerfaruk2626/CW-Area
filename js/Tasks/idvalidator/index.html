@@ -14,10 +14,11 @@
     <div class="container-fluid mx-auto">
         <h1 class="text-center">ID Validator</h1>
         <div class="row row1">
-            <div class="col-12 col-xl-4 mx-auto text-center">
+            <div class="col-12 col-xl-4 mx-auto text-center position-relative">
                 <form action="" id="idValidatorForm">
                     <input type="text" placeholder="Name" class="form-control" name="name" id="name">
                     <input type="number" placeholder="ID" class="form-control mt-2" name="id" id="input">
+                    <span class="tooltiptext">ID must be 11 digits long</span>
                     <button type="submit" class="btn btn-danger  mt-3">CHECK</button>
                 </form>
             </div>
@@ -28,14 +29,17 @@
                     <table class="table table-light">
                         <h2>Result</h2>
                         <tr class="table-danger">
+                            <th>Time</th>
                             <th>Name</th>
                             <th>ID</th>
                             <th>Status</th>
+
                         </tr>
                         <tr>
-                            <td id="nameTable"></td>
-                            <td id="idTable"></td>
-                            <td id="statusTable"></td>
+                            <td class="tablo" id="timeTable"></td>
+                            <td class="tablo" id="nameTable"></td>
+                            <td class="tablo" id="idTable"></td>
+                            <td class="tablo" id="statusTable"></td>
                         </tr>
                     </table>
                 </div>
