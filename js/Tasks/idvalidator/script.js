@@ -33,20 +33,26 @@ btn.addEventListener("click", (event) => {
 
     if (digits[9] === ten && digits[10] === eleven) {
       newStatusTable.innerText = "Valid";
-      newRow.classList.add("text-success");
+      newStatusTable.classList.add("text-success");
+      newNameTable.classList.add("text-success");
+      newIdTable.classList.add("text-success");
+      newTimeTable.classList.add("text-success");
       row2.style.display = "block";
 
     } else {
       newStatusTable.innerText = "Invalid";
-      newRow.classList.remove("text-success");
-      newRow.classList.add("text-danger");
+      newStatusTable.classList.remove("text-success");
+      newNameTable.classList.remove("text-success");
+      newIdTable.classList.remove("text-success");
+      newTimeTable.classList.remove("text-success");
+      newStatusTable.classList.add("text-danger");
+      newNameTable.classList.add("text-danger");
+      newIdTable.classList.add("text-danger");
+      newTimeTable.classList.add("text-danger");
       row2.style.display = "block";
-
-
     }
     
     newRow.append(newTimeTable, newNameTable, newIdTable, newStatusTable);
-
     resultTable.querySelector("tbody").appendChild(newRow);
   }
 
