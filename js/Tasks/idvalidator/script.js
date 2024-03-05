@@ -58,6 +58,23 @@ btn.addEventListener("click", (event) => {
       input.value = "";
       nameInput.value = "";
     }
+    
+    const rowData = {
+      time: newTimeTable.innerText,
+      name: newNameTable.innerText,
+      id: newIdTable.innerText,
+      status: newStatusTable.innerText,
+    };
+    const existingData = JSON.parse(localStorage.getItem("rows")) || [];
+    existingData.push(rowData);
+    localStorage.setItem("rows", JSON.stringify(existingData));
+
+    const clearBtn = document.querySelector(".clear");
+
+    clearBtn.addEventListener("click", () => {
+      localStorage.clear();
+      location.reload();
+    })
 
     newRow.append(newTimeTable, newNameTable, newIdTable, newStatusTable);
     resultArea.insertBefore(newRow, resultArea.firstChild);
