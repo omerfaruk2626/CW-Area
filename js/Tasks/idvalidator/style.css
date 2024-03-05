@@ -44,3 +44,6 @@ body {
   visibility: visible;
 }
 
+.row2{
+  display: none;
+}
