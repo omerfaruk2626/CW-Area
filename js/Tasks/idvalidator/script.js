@@ -12,9 +12,12 @@ btn.addEventListener("click", (event) => {
 
   if (name === "" || idNumber === "") {
     alert("Please fill in all the fields.");
+  } else if (idNumber <= 0) {
+    alert("ID must be a positive number.");
+    input.value = "";
   } else if (idNumber.length !== 11) {
     alert("ID must be 11 digits long.");
-  } else {
+  }  else {
     const digits = idNumber.split("").map(Number);
     const ten =
       ((digits[0] + digits[2] + digits[4] + digits[6] + digits[8]) * 7 -
