@@ -2,6 +2,7 @@ const btn = document.querySelector(".btn");
 const input = document.querySelector("#input");
 const nameInput = document.querySelector("#name");
 const resultTable = document.querySelector(".resultTable");
+const resultArea = document.querySelector(".resultArea");
 const row2 = document.querySelector(".row2");
 
 btn.addEventListener("click", (event) => {
@@ -38,7 +39,8 @@ btn.addEventListener("click", (event) => {
       newIdTable.classList.add("text-success");
       newTimeTable.classList.add("text-success");
       row2.style.display = "block";
-
+      input.value = "";
+      nameInput.value = "";
     } else {
       newStatusTable.innerText = "Invalid";
       newStatusTable.classList.remove("text-success");
@@ -50,12 +52,11 @@ btn.addEventListener("click", (event) => {
       newIdTable.classList.add("text-danger");
       newTimeTable.classList.add("text-danger");
       row2.style.display = "block";
+      input.value = "";
+      nameInput.value = "";
     }
-    
-    newRow.append(newTimeTable, newNameTable, newIdTable, newStatusTable);
-    resultTable.querySelector("tbody").appendChild(newRow);
-  }
 
-  input.value = "";
-  nameInput.value = "";
+    newRow.append(newTimeTable, newNameTable, newIdTable, newStatusTable);
+    resultArea.insertBefore(newRow, resultArea.firstChild);
+  }
 });

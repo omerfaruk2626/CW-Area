@@ -46,4 +46,16 @@ body {
 
 .row2{
   display: none;
+  height: 250px;
+  overflow: auto;
+  overflow-x: hidden;
+
 }
+/* 
+.resultTable{
+  /* display: none; */
+  /* height: 300px; */
+  overflow: auto;
+  overflow-x: hidden;
+  /* margin-top: 50px; */
+} */
