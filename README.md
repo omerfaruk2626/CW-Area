@@ -24,7 +24,7 @@ This is my CW - area. And, There are my studies in here.
 <b>JAVASCRİPT<b><br>
 <b>Tasks<b><br>
 #0 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/guess/ // This project likely involves a guessing game where the user tries to guess a randomly generated number. JavaScript is likely used to handle the logic of generating a random number and processing user input.<br> 
-#1 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/js-4işlem/// This task may involve implementing basic arithmetic operations (addition, subtraction, multiplication, division) using JavaScript. The user might input two numbers, and the script could display the results of these operations. <br>  
+#1 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/js-4işlem/ // This task may involve implementing basic arithmetic operations (addition, subtraction, multiplication, division) using JavaScript. The user might input two numbers, and the script could display the results of these operations. <br>  
 #2 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/leap_year/ // This project probably checks whether a given year is a leap year or not. JavaScript is likely used to implement the logic for leap year calculations.<br> 
 #3 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/seasons/ // This task may involve determining the season based on the input of a month. JavaScript is likely used to evaluate the month and determine the corresponding season.<br> 
 #4 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/guess_2/ // Similar to Task #0, this project might be an advanced version of a guessing game, possibly with additional features or complexity in the game logic.<br> 
