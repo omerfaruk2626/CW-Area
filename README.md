@@ -2,20 +2,20 @@ This is my CW - area. And, There are my studies in here.
 ---------------------------------------------------------------------------------------------------
 <b>HTML-CSS<b><br>
 <b>Tasks<b><br>
-#0 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/stan-lee/ <br> // I made a page with basic html css
-#1 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/parallax/ <br> // This project showcases a webpage with a parallax effect, where background images move at a different speed than the foreground, creating a visually appealing scrolling experience
-#2 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/home_furnishing/ <br> // The webpage focuses on home furnishing, featuring different furniture items and design elements. It provides a visual representation of home decor using HTML and CSS.
-#3 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/gallery/ <br> // This project is a gallery webpage displaying various images. It likely demonstrates the use of HTML and CSS to create a grid layout for showcasing a collection of pictures.
-#4 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/Clarusway_info_page/ <br> // The webpage seems to be an information page for Clarusway, possibly a company or service. It likely includes details about Clarusway's offerings and uses HTML and CSS for the layout.
-#5 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/Netflix/ <br> // This project appears to be a Netflix homepage recreation. It showcases a layout resembling the Netflix interface, using HTML and CSS to mimic the design and structure of the popular streaming platform.
-#6 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/grid/ <br> // This webpage demonstrates the use of CSS Grid layout. It likely showcases the capability of creating a structured grid-based design for organizing and presenting content. 
-#7 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/grid2/ <br> // This webpage demonstrates the use of CSS Grid layout. It likely showcases the capability of creating a structured grid-based design for organizing and presenting content.
-#8 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/grid3/ <br> // This webpage demonstrates the use of CSS Grid layout. It likely showcases the capability of creating a structured grid-based design for organizing and presenting content.
-#9 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/animation/ <br> // The webpage focuses on demonstrating various animations using HTML and CSS. It may include transitions, keyframes, or other animation techniques to enhance the visual appeal of the content.
-#10 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/anthony/ <br> // In this project, I improved myself by cloning the portfolio page.
-#11 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/media_quare/ <br> // The webpage likely involves creating a media square layout using HTML and CSS. It may showcase images, videos, or other media elements in a structured square format.
-#12 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/productcard/ <br> // On this page, I simply cloned the apple page. I added new ideas to myself.
-#13 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/boostrap/ <br> // The webpage demonstrates the use of Bootstrap, a popular front-end framework. It might showcase responsive design elements and components provided by Bootstrap for creating a visually appealing and mobile-friendly layout.
+#0 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/stan-lee/  // I made a page with basic html css<br>
+#1 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/parallax/ // This project showcases a webpage with a parallax effect, where background images move at a different speed than the foreground, creating a visually appealing scrolling experience <br>
+#2 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/home_furnishing/ // The webpage focuses on home furnishing, featuring different furniture items and design elements. It provides a visual representation of home decor using HTML and CSS.<br> 
+#3 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/gallery/ // This project is a gallery webpage displaying various images. It likely demonstrates the use of HTML and CSS to create a grid layout for showcasing a collection of pictures.<br> 
+#4 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/Clarusway_info_page/ // The webpage seems to be an information page for Clarusway, possibly a company or service. It likely includes details about Clarusway's offerings and uses HTML and CSS for the layout.<br> 
+#5 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/Netflix/ // This project appears to be a Netflix homepage recreation. It showcases a layout resembling the Netflix interface, using HTML and CSS to mimic the design and structure of the popular streaming platform.<br> 
+#6 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/grid/ // This webpage demonstrates the use of CSS Grid layout. It likely showcases the capability of creating a structured grid-based design for organizing and presenting content. <br> 
+#7 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/grid2/ // This webpage demonstrates the use of CSS Grid layout. It likely showcases the capability of creating a structured grid-based design for organizing and presenting content.<br> 
+#8 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/grid3/ // This webpage demonstrates the use of CSS Grid layout. It likely showcases the capability of creating a structured grid-based design for organizing and presenting content.<br> 
+#9 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/animation/ // The webpage focuses on demonstrating various animations using HTML and CSS. It may include transitions, keyframes, or other animation techniques to enhance the visual appeal of the content.<br> 
+#10 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/anthony/ // In this project, I improved myself by cloning the portfolio page.<br> 
+#11 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/media_quare/ // The webpage likely involves creating a media square layout using HTML and CSS. It may showcase images, videos, or other media elements in a structured square format.<br> 
+#12 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/productcard/ // On this page, I simply cloned the apple page. I added new ideas to myself.<br> 
+#13 https://omerfaruk2626.github.io/CW-Area/html_css/Tasks/boostrap/ // The webpage demonstrates the use of Bootstrap, a popular front-end framework. It might showcase responsive design elements and components provided by Bootstrap for creating a visually appealing and mobile-friendly layout.<br> 
 
 
 
@@ -23,20 +23,20 @@ This is my CW - area. And, There are my studies in here.
 ---------------------------------------------------------------------------------------------------
 <b>JAVASCRİPT<b><br>
 <b>Tasks<b><br>
-#0 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/guess/ <br> // This project likely involves a guessing game where the user tries to guess a randomly generated number. JavaScript is likely used to handle the logic of generating a random number and processing user input.
-#1 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/js-4işlem/ <br>  // This task may involve implementing basic arithmetic operations (addition, subtraction, multiplication, division) using JavaScript. The user might input two numbers, and the script could display the results of these operations.
-#2 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/leap_year/ <br> // This project probably checks whether a given year is a leap year or not. JavaScript is likely used to implement the logic for leap year calculations.
-#3 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/seasons/ <br> // This task may involve determining the season based on the input of a month. JavaScript is likely used to evaluate the month and determine the corresponding season.
-#4 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/guess_2/ <br> // Similar to Task #0, this project might be an advanced version of a guessing game, possibly with additional features or complexity in the game logic.
-#5 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/score_keeper/ <br> // I have developed a score-keeping application using JavaScript, and the scores are dynamically reflected on the screen through the Document Object Model (DOM). 
-#6 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/dom1/ <br> // I did a rework and reinforcement project on DOM.
-#7 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/checkout/ <br> // This project could be related to creating a checkout form for an online store using JavaScript. It may involve form validation and handling user input.
-#8 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/todolist/ <br> // This task probably involves creating a to-do list application using JavaScript. Users can add tasks, mark them as completed, and potentially perform other actions.
-#9 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/vowels/ <br> // This project may involve counting the number of vowels in a given text using JavaScript. It could include a user interface for inputting text and displaying the result.
-#10 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/wallet/ <br> // This task might involve implementing a simple wallet management system using JavaScript. Users could add or subtract funds, and the application may display the current balance.
-#11 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/idvalidator/ <br> // 
-I created a JavaScript project for validating Turkish Republic Identification Numbers (T.C. Kimlik Numarası). The application verifies the format and overall validity of these identification numbers, offering a concise tool for accurate validation.
-#12 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/validator/ <br> // This task likely involves creating a form validation script using JavaScript. It could include checking various form fields for correctness before submission.
+#0 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/guess/ // This project likely involves a guessing game where the user tries to guess a randomly generated number. JavaScript is likely used to handle the logic of generating a random number and processing user input.<br> 
+#1 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/js-4işlem/// This task may involve implementing basic arithmetic operations (addition, subtraction, multiplication, division) using JavaScript. The user might input two numbers, and the script could display the results of these operations. <br>  
+#2 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/leap_year/ // This project probably checks whether a given year is a leap year or not. JavaScript is likely used to implement the logic for leap year calculations.<br> 
+#3 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/seasons/ // This task may involve determining the season based on the input of a month. JavaScript is likely used to evaluate the month and determine the corresponding season.<br> 
+#4 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/guess_2/ // Similar to Task #0, this project might be an advanced version of a guessing game, possibly with additional features or complexity in the game logic.<br> 
+#5 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/score_keeper/ // I have developed a score-keeping application using JavaScript, and the scores are dynamically reflected on the screen through the Document Object Model (DOM). <br> 
+#6 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/dom1/ // I did a rework and reinforcement project on DOM.<br> 
+#7 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/checkout/ // This project could be related to creating a checkout form for an online store using JavaScript. It may involve form validation and handling user input.<br> 
+#8 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/todolist/ // This task probably involves creating a to-do list application using JavaScript. Users can add tasks, mark them as completed, and potentially perform other actions.<br> 
+#9 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/vowels/ // This project may involve counting the number of vowels in a given text using JavaScript. It could include a user interface for inputting text and displaying the result.<br> 
+#10 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/wallet/ // This task might involve implementing a simple wallet management system using JavaScript. Users could add or subtract funds, and the application may display the current balance.<br> 
+#11 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/idvalidator/ // 
+I created a JavaScript project for validating Turkish Republic Identification Numbers (T.C. Kimlik Numarası). The application verifies the format and overall validity of these identification numbers, offering a concise tool for accurate validation.<br> 
+#12 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/validator/ // This task likely involves creating a form validation script using JavaScript. It could include checking various form fields for correctness before submission.<br> 
 
 ---------------------------------------------------------------------------------------------------
 
