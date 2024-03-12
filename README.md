@@ -12,7 +12,7 @@ This is my CW - area. And, There are my studies in here.
 #5 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/score_keeper/ // I have developed a score-keeping application using JavaScript, and the scores are dynamically reflected on the screen through the Document Object Model (DOM). <br> 
 #6 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/dom1/ // I did a rework and reinforcement project on DOM.<br> 
 #7 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/checkout/ // This project could be related to creating a checkout form for an online store using JavaScript. It may involve form validation and handling user input.<br> 
-#8 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/todolist/ // This task probably involves creating a to-do list application using JavaScript. Users can add tasks, mark them as completed, and potentially perform other actions.<br> 
+#8 https://omerfaruk2626.github.io/CW-Area/js/Tasks/todolist/ // This task probably involves creating a to-do list application using JavaScript. Users can add tasks, mark them as completed, and potentially perform other actions.<br> 
 #9 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/vowels/ // This project may involve counting the number of vowels in a given text using JavaScript. It could include a user interface for inputting text and displaying the result.<br> 
 #10 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/wallet/ // This task might involve implementing a simple wallet management system using JavaScript. Users could add or subtract funds, and the application may display the current balance.<br> 
 #11 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/idvalidator/ // 
