@@ -11,7 +11,7 @@ This is my CW - area. And, There are my studies in here.
 ![Alt Text](./js/Tasks/stopWatch/stopwatch.gif)
 <br>
 ## #13 https://omerfaruk2626.github.io/CW-Area/js/Tasks/random_cat/ <br>// I randomly pulled the image links from the API and printed them on the page. It was one of the starter studies of the API study.
-![Alt Text](./js/Tasks/random_cat/randomCat.gif)
+![Alt Text](./js/Tasks/random_cat/loadingRandom.gif)
 <br>
 ## #12 https://omerfaruk2626.github.io/CW-Area/js/Tasks/validator/ <br>// This task involves creating a form validation script using JavaScript. It includes checking various form fields for correctness before submission.<br>
 ## #11 https://omerfaruk2626.github.io/CW-Area/js/Tasks/idvalidator/ <br>// I created a JavaScript project for validating Turkish Republic Identification Numbers (T.C. Kimlik Numarası). The application verifies the format and overall validity of these identification numbers, offering a concise tool for accurate validation.<br> 

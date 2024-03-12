@@ -6,7 +6,7 @@ const openLoader = () => {
     loader.style.display = "none";
     button.style.display = "block";
     dateArea.style.display = "block";
-  }, 3500);
+  }, 7500);
 };
 
 
