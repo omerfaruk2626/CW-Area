@@ -19,8 +19,8 @@ This is my CW - area. And, There are my studies in here.
 I created a JavaScript project for validating Turkish Republic Identification Numbers (T.C. Kimlik Numarası). The application verifies the format and overall validity of these identification numbers, offering a concise tool for accurate validation.<br> 
 #12 https://omerfaruk2626.github.io/CW-Area/js/Tasks/validator/ // This task likely involves creating a form validation script using JavaScript. It could include checking various form fields for correctness before submission.<br>
 #13 https://omerfaruk2626.github.io/CW-Area/js/Tasks/random_cat/ // I randomly pulled the image links from the API and printed them on the page. It was one of the starter studies of the API study.<br>
-#14 https://omerfaruk2626.github.io/CW-Area/js/Tasks/stopWatch/ // This is a simple web-based timer implemented using HTML, CSS, and JavaScript. It allows users to start, stop, and reset the timer with buttons. The timer displays tenths of a second, seconds, and minutes.
-
+#14 https://omerfaruk2626.github.io/CW-Area/js/Tasks/stopWatch/ // This is a simple web-based timer implemented using HTML, CSS, and JavaScript. It allows users to start, stop, and reset the timer with buttons. The timer displays tenths of a second, seconds, and minutes. <br>
+#15 https://omerfaruk2626.github.io/CW-Area/js/Tasks/random_flag/ // Using the API that contains information about the countries, I pulled random information and pressed it to the screen.
 
 
 ---------------------------------------------------------------------------------------------------
