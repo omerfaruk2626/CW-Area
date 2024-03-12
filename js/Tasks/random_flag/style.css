@@ -12,3 +12,18 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.card-img-top{
+    width: 340px;
+    height: 250px;
+}
