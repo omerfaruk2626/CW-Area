@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+#display{
+    font-size: 70px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.butonlar{
+    display: flex;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 0 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
