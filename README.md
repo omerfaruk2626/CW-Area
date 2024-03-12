@@ -17,7 +17,8 @@ This is my CW - area. And, There are my studies in here.
 #10 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/wallet/ // This task might involve implementing a simple wallet management system using JavaScript. Users could add or subtract funds, and the application may display the current balance.<br> 
 #11 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/idvalidator/ // 
 I created a JavaScript project for validating Turkish Republic Identification Numbers (T.C. Kimlik Numarası). The application verifies the format and overall validity of these identification numbers, offering a concise tool for accurate validation.<br> 
-#12 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/validator/ // This task likely involves creating a form validation script using JavaScript. It could include checking various form fields for correctness before submission.<br> 
+#12 https://omerfaruk2626.github.io/CW-Area/JS/Tasks/validator/ // This task likely involves creating a form validation script using JavaScript. It could include checking various form fields for correctness before submission.<br>
+#13 https://omerfaruk2626.github.io/CW-Area/js/Tasks/random_cat/ // I randomly pulled the image links from the API and printed them on the page. It was one of the starter studies of the API study.
 
 
 ---------------------------------------------------------------------------------------------------
