@@ -1,4 +1,4 @@
-This is my CW - area. And, There are my studies in here.
+This is my CW - area.
 ---------------------------------------------------------------------------------------------------
 
 
