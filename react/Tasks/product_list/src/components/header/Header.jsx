@@ -3,14 +3,16 @@ import "./header.scss";
 const Header = () => {
     return (
         <header>
+            <div className="logo">
             <h1>Product List</h1>
-            <ul>
+            </div>
+            <div className="menu"><ul>
                 <li>ALL</li>
                 <li>ELECTRONICS</li>
                 <li>JEWELERY</li>
                 <li>MEN'S CLOTHING</li>
                 <li>WOMEN'S CLOTHING</li>
-            </ul>
+            </ul></div>
         </header>
     );
 }
