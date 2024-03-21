@@ -1,3 +1,13 @@
 main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
     background-color: aqua;
+}
+.images img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 20px;
+
 }

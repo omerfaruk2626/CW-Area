@@ -1,17 +1,19 @@
-import ( products ) from "../../helper/data"
+import React from 'react';
+import { products } from "../../helper/data";
 import "./ProductCard.scss";
 
-const PruductCard = () => {
-
+const ProductCard = () => {
     return (
         <main>
             {products.map((product) => (
-                <div key={pruduct.id} className="images">
+                <div key={product.id} className="images">
                     <img src={product.image} alt={product.title} />
-                    <p> {product.title}</p>
-                    <p> {product.price}</p>
-                    <p> {product.description}</p>
+                    <p>{product.title}</p>
+                    <p>{product.price}</p>
                 </div>
             ))}
         </main>
+    );
 }
+
+export default ProductCard;
