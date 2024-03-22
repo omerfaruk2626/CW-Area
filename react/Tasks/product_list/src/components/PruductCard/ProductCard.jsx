@@ -1,18 +1,22 @@
+// ProductCard.jsx
+
 import React from 'react';
 import { products } from "../../helper/data";
 import "./ProductCard.scss";
 
-const ProductCard = () => {
+const ProductCard = ({ selectedCategory }) => {
+    const filteredProducts = selectedCategory === 'all' ? products : products.filter(product => product.category === selectedCategory);
+
     return (
-        <main>
-            {products.map((product) => (
+        <div className='main'>
+            {filteredProducts.map((product) => (
                 <div key={product.id} className="images">
                     <img src={product.image} alt={product.title} />
-                    <p>{product.title}</p>
-                    <p>{product.price}</p>
+                    <h4 className="title">{product.title}</h4>
+                    <p className="price">{product.price} $</p>
                 </div>
             ))}
-        </main>
+        </div>
     );
 }
 

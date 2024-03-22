@@ -1,0 +1,10 @@
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
